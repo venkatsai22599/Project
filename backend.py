@@ -10,7 +10,7 @@ import os
 load_dotenv()
 
 api_key = os.getenv("GROQ_API_KEY")
-llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=api_key) # type: ignore
+llm = ChatGroq(model="meta-llama/llama-4-scout-17b-16e-instruct", api_key=api_key) # type: ignore
 
 class ChatState(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
