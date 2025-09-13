@@ -1,0 +1,17 @@
+
+# env files
+.env
+*.env
+.env.*
+
+# env files
+.env
+*.env
+.env.*
+.streamlit/secrets.toml
+
+# Ignore env files
+.env
+*.env
+.env.*
+.streamlit/secrets.toml
